@@ -1,0 +1,30 @@
+#appList {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+}
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.app img {
+    width: 100px;
+    height: 100px;
+}
+
+.null {
+    width: 100px;
+    height:100px;
+}
+

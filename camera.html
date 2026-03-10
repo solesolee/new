@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="globalstyle.css">
+<link rel="stylesheet" href="camerastyle.css">
+
+<title>Camera</title>
+</head>
+
+<body>
+
+<div class="base">
+
+<div class="back">
+<a href="index.html">
+<header>
+<div class="backPage">
+<img src="image/backpage.svg">
+<p>Camera</p>
+</div>
+</header>
+</a>
+</div>
+
+<div class="cam">
+
+<video id="video" autoplay playsinline></video>
+<div id="timerDisplay"></div>
+<div id="flash"></div>
+
+<canvas id="canvas" style="display:none;"></canvas>
+<img src="image/cam.png" class="cam-frame">
+<button id="captureBtn">
+  <div class="inner"></div>
+</button>
+
+
+
+
+
+</div>
+
+<div id="previewOverlay">
+  <img id="previewImage">
+  <button id="closePreview">✕</button>
+</div>
+
+
+</div>
+
+<script src="camera.js"></script>
+
+</body>
+</html>

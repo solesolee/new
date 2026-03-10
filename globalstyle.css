@@ -1,0 +1,48 @@
+body {
+  background: #f3f3f3;
+  background-image: url("image/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  
+  font-family: "vt323", monospace; /* Menambahkan fallback font */
+  letter-spacing: 1px;
+}
+
+.base {
+  width: 100%;
+  max-width: 390px;   
+  min-height: 100vh;
+  padding: 20px; /* Menambahkan padding agar tidak menempel di ujung layar hp kecil */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Memastikan isi di dalamnya tetap di tengah */
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.backPage {
+  
+  color: white;
+  column-gap: 30px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  margin-bottom: 10px; /* Memberi jarak ke elemen di bawahnya */
+}
+
+.back {
+  padding-right: 130px;
+}
